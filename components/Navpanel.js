@@ -13,8 +13,7 @@ export default function Navpanel({ closeNavpanel }) {
     return (
         <div className='bg-black h-screen opacity-90 w-[97vw] items-center jsutify-center z-[100]'>
             <div id="navpanel" className="navpanel">
-                <div className='text-white text-2xl italic font-thin pl-[-3vw] pt-[52px]'>
-                {/* <div className='text-white text-2xl italic font-thin pl-[3vw] pb-[50vw] pt-[calc(50vw-52px)]'> */}
+                <div className='text-white text-2xl italic font-thin ml-[-1.5vw] pt-[52px]'>
                     <ul className='text-center panelul'>
                         
                         {/* Home */}
