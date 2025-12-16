@@ -225,69 +225,6 @@ export default function Works13 () {
                             marginRight="mr-4"
                         />
 
-                        {/* サイト */}
-                        <WorksCard
-                            title="旧ポートフォリオサイト"
-                            workNum="P-05"
-                            assignType="team"
-                            termLabel="一貫担当"
-                            href="https://lumijoe.github.io/xf_test01/"
-                            imageSrc="/310264_8.png"
-                            imageWidth={224}
-                            imageHeight={224}
-                            imageOverlayText="個人モックアップ制作"
-                            cardHeight="250px"
-                            mainTitle={["HTMLを", "GitHub Pagesでデプロイ"]}
-                            dateStatus="2022/12-2023/02"
-                            roles="Dir. / WF / Design / Coding"
-                            skills={[
-                            "XD",
-                            "HTML",
-                            "CSS",
-                            "Github Pages"
-                            ]}
-                            useSmallSkills={true}
-                            marginRight="mr-4"
-                        />
-
-                        <WorksCard
-                            title="小売業コーポレートサイト"
-                            workNum="P-06"
-                            assignType="team"
-                            termLabel="一貫担当"
-                            href="http://designguys.wp.xdomain.jp"
-                            imageSrc="/310264.png"
-                            imageWidth={224}
-                            imageHeight={224}
-
-                            // 追加画像を配列で渡す
-                            additionalImages={[
-                            {
-                                src: "/310264_5.png",
-                                width: 224,
-                                height: 264,
-                                style: { maxWidth: 'none', position: 'absolute', zIndex: 1, bottom: '0px' }
-                            },
-                            {
-                                src: "/workWeb02.gif",
-                                width: 202,
-                                height: 264,
-                                style: { maxWidth: 'none', position: 'absolute', zIndex: 0, bottom: '0px', left: '10px' }
-                            }
-                            ]}
-
-                            imageOverlayText="キャッチアップ制作"
-                            cardHeight="250px"
-                            mainTitle={["Word Pressテーマ", "Lightningを構築"]}
-                            dateStatus="2022/12-2023/01"
-                            roles="CMS / Dir. / WF / Design / Coding"
-                            skills={[
-                            "Photoshop",
-                            "Word Press(Lightning)"
-                            ]}
-                            useSmallSkills={true}
-                            marginRight="mr-4"
-                        />
                     </ul>
                 </div>
             {/* ここまで作品　============================================================================== */}

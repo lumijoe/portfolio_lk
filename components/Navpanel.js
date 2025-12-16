@@ -20,46 +20,11 @@ export default function Navpanel({ closeNavpanel }) {
                         {/* Home */}
                         <li className='text-5xl text-white italic mb-4'>
                             <Link href="/" onClick={closeNavpanel}>Home</Link></li>
-
-                        {/* Skills */}
-                        <li className='text-5xl text-white italic mb-4'>
-                            <Link href={skillsarea} onClick={closeNavpanel}>Skills</Link></li>
-                        
-                        {/* About */}
-                        <li className='text-5xl text-white italic mb-4'>
-                            <Link href="/about" onClick={closeNavpanel}>About</Link></li>
                         
                         {/* Works */}
                         <li className='text-5xl text-white italic mb-4'>
                             <Link href={worksarea} onClick={closeNavpanel}>Works</Link></li>
                         
-                        
-                        
-                        {/* GitHub */}
-                        <li className='flex justify-center mt-5'>
-                            <a href="https://github.com/lumijoe" target="_blank">
-                                <Image
-                                    src="/githubwhite.svg"
-                                    alt="Icon"
-                                    width={32}
-                                    height={32}
-                                />
-                            </a>
-                        </li>
-                        <li className='text-[16px] text-white italic mt-[4px]'>Github</li>
-
-                        {/* Vercel
-                        <li className='flex justify-center mt-3'>
-                            <a href="https://vercel.com/lumijoes-projects" target="_blank">
-                                <Image
-                                    src="/vercelwhite.svg"
-                                    alt="Icon"
-                                    width={32}
-                                    height={32}
-                                />
-                            </a>
-                        </li>
-                        <li className='text-[12px] text-white italic  -mt-[4px]'>Vercel</li> */}
 
                     </ul>
                 </div>
